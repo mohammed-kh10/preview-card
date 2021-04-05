@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #e4e4e2;
+}
+
+.cards {
+  width: 70%;
+  position: absolute;
+  top: 10%;
+  left: 14%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cards .car {
+  width: 33.3%;
+  background-color: #e38826;
+}
+
+.cards .car img {
+  margin: 40px 0px 30px 40px;
+  background-color: #e38826;
+}
+
+.cards .car h1 {
+  font-size: 30px;
+  margin-left: 40px;
+  color: white;
+  background-color: #e38826;
+}
+
+.cards .car p {
+  text-align: center;
+  width: 60%;
+  height: 140px;
+  text-align: left;
+  margin: 30px 0px 80px 40px;
+  color: #cfcaca;
+  background-color: #e38826;
+}
+
+.cards .car button {
+  background-color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 20px 0px 20px 40px;
+  -webkit-transition: background-color .7s, color .3s;
+  transition: background-color .7s, color .3s;
+}
+
+.cards .car button:hover {
+  background-color: transparent;
+  color: white;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 2px solid white;
+  margin: 18px 0px 18px 40px;
+}
+
+.cards .brightOrange {
+  background-color: #e38826;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.cards .brightOrange button {
+  color: #e38826;
+}
+
+.cards .darkCyan, .cards .darkCyan img, .cards .darkCyan h1, .cards .darkCyan p {
+  background-color: #006970;
+}
+
+.cards .darkCyan button {
+  color: #006970;
+}
+
+.cards .veryDarkCyan, .cards .veryDarkCyan img, .cards .veryDarkCyan h1, .cards .veryDarkCyan p {
+  background-color: #004241;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.cards .veryDarkCyan button {
+  color: #004241;
+}
+
+@media (max-width: 375px) {
+  .cards {
+    width: 90%;
+    margin-left: -15px;
+    margin-bottom: 70px;
+    display: block;
+  }
+  .cards .car {
+    width: 90%;
+  }
+  .cards .brightOrange {
+    border-radius: 20px 20px 0px 0px;
+  }
+  .cards .veryDarkCyan, .cards .veryDarkCyan img, .cards .veryDarkCyan h1, .cards .veryDarkCyan p {
+    border-radius: 0px 0px 20px 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
